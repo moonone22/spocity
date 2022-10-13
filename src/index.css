@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "S-CoreDream-5Medium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mont-DEMO";
+  src: url("./font/Mont-HeavyDEMO.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  outline: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+input,
+textarea {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: #2c2d2d;
+}
+html {
+  overflow: hidden;
+  background-color: #202221;
+}
+
+.Toastify__close-button {
+  opacity: 1 !important;
+  color: #fff !important;
+}
+
+.toast-error {
+  background-color: rgba(202, 41, 45, 0.85) !important;
+  bottom: 20px !important;
+}
+.toast-no-content {
+  background-color: rgba(237, 174, 39, 0.85) !important;
+  bottom: 20px !important;
+}
+.toast-time {
+  background-color: rgba(231, 100, 42, 0.85) !important;
+  bottom: 20px !important;
+}
+.toast-eraser {
+  background-color: rgba(24, 136, 230, 0.85) !important;
+  bottom: 20px !important;
+}
+.toast-wellcom {
+  background-color: rgba(233, 136, 110, 0.85) !important;
+  bottom: 20px !important;
+}
+.toast-check {
+  background-color: rgba(9, 159, 60, 0.85) !important;
+  bottom: 20px !important;
+}
+.toast-red {
+  background-color: rgba(202, 41, 45, 0.85) !important;
+}
+.toast-green {
+  background-color: rgba(9, 159, 60, 0.85) !important;
+}
+.toast-enter {
+  background-color: rgba(22, 23, 23, 0.95) !important;
+  top: 130px !important;
+}
+.toast-message {
+  background-color: rgba(22, 23, 23, 0.95) !important;
+  top: 130px !important;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.6) !important;
+  height: 3px !important;
+}
+
+.toast-enter .Toastify__progress-bar {
+  background: #0e8c39 !important;
+  height: 3px !important;
+}
+
+.toast-message .Toastify__progress-bar {
+  background: #5e56a2 !important;
+  height: 3px !important;
+}
+@media (max-width: 720px) {
+  :root {
+    --toastify-toast-width: calc((690 / 720) * 100vw) !important;
+    --toastify-toast-min-height: calc((89 / 1280) * 100vh) !important;
+    --toastify-z-index: 999999 !important;
+  }
+  .toast-error,
+  .toast-no-content,
+  .toast-time,
+  .toast-eraser,
+  .toast-wellcom,
+  .toast-check,
+  .toast-red,
+  .toast-green {
+    bottom: calc((190 / 1280) * 100vh) !important;
+  }
+  .toast-enter,
+  .toast-message {
+    top: unset !important;
+    bottom: calc((340 / 1280) * 100vh) !important;
+  }
+}

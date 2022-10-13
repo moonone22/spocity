@@ -1,0 +1,13 @@
+
+.Toastify__toast--default {
+    position: relative;
+    left: 10px;
+}
+
+/* 나중에 채팅창 할때 모바일 채팅부분에 나타나도록 변경  */
+@media (max-width: 720px) {
+    .Toastify__toast-container--bottom-right{
+        display: none;
+    }
+    .Toastify__toast--default{left :0}
+}

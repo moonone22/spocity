@@ -1,0 +1,39 @@
+
+ input[type="radio"] {
+    display:none;
+  }
+  
+  input[type="radio"] + label{
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background: url('/public/images/popup/Circle.png');
+    background-repeat : no-repeat;
+    background-size : cover;
+  }
+  
+  input[type="radio"]:checked + label {
+    width: 16px;
+    height: 16px;
+    background: url('/public/images/popup/CheckCircle.png');
+    background-repeat : no-repeat;
+    background-size : cover;
+  }
+
+  
+@media (max-width: 720px) {
+  input[type="radio"] + label{
+    display:inline-block;
+    width: calc((36 / 720) * 100vw);
+    vertical-align: middle;
+    background: url('/public/images/popup/Circle.png');
+    background-size: cover;
+  }
+  
+  input[type="radio"]:checked + label {
+    width: calc((36 / 720) * 100vw);
+    background: url('/public/images/popup/CheckCircle.png');
+    background-size: cover;
+  }
+}
