@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/spocity.git/static/css/main.ba77010b.css",
+    "main.js": "/spocity.git/static/js/main.dbce5ab9.js",
+    "static/media/Mont-HeavyDEMO.otf": "/spocity.git/static/media/Mont-HeavyDEMO.a1c041a8d8e27fc771db.otf",
+    "static/media/slick.svg": "/spocity.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/spocity.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/spocity.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/spocity.git/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/spocity.git/index.html",
+    "main.ba77010b.css.map": "/spocity.git/static/css/main.ba77010b.css.map",
+    "main.dbce5ab9.js.map": "/spocity.git/static/js/main.dbce5ab9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba77010b.css",
+    "static/js/main.dbce5ab9.js"
+  ]
+}
